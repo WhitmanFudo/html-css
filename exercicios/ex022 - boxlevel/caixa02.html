@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        header > h1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 50px;
+        }
+
+        nav {
+            background-color: rgb(128, 128, 128);
+            padding: 3px;
+            text-align: center;
+            box-shadow: 5px 4px 5px #000000;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 50px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.637);
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            border-bottom: white;
+            box-shadow: 0px 0px 5px 2px #00000086;
+        }
+
+        article > aside {
+            background-color: rgb(177, 176, 176);
+            text-align: right;
+        }
+
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="a">Esportes</a>
+            <a href="a">Política</a>
+            <a href="a">Tecnologia</a>
+            <a href="a">Jogos</a>
+            <a href="a">Celebridades</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>As mais novas noticias para você</h2>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor corporis quasi quidem dolores voluptate, ex voluptates doloribus unde dignissimos exercitationem eligendi odit dolore! Earum ducimus doloremque consequatur libero ad! Voluptatem!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+                <h2>Noticias sobre a Política</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi perspiciatis itaque, saepe repellendus provident, labore natus id recusandae libero totam repellat. In veniam iure et voluptates modi ex aut deserunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quam, vitae, animi dolorum vero reiciendis odio illum quae earum in debitis natus, eos recusandae. Veniam consequatur exercitationem dolor error voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. In corrupti similique quidem nulla, neque quaerat reiciendis, dicta perferendis doloremque ratione, quisquam culpa facilis repellendus! Doloremque possimus minus saepe quia labore!</p>
+                <aside>
+                    <p>Artigo escrito por Ximbinha123</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Ronan Fudo</p>
+    </footer>
+</body>
+</html>

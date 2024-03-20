@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'idroid' ;
+    src: url('fontes/idroid.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.subtitulo {
+    font-family: 'idroid', sans-serif;
+    color: #1a5c38;
+    margin: 10px;
+}
+
+.texto {
+    text-indent:1.5em;
+    text-align: justify;
+}
+
+.imagem {
+    text-align: center;
+}
+
+#video {
+    text-align: center;
+    background-color: #1a5c38;
+    margin: 10px -20px;
+    padding: 20px;
+    border: 0px;
+}
+
+.linkexterno {
+    color: #1a5c38;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.linkexterno::after {
+    content: '🔗';
+}
+
+.link {
+    color: #1a5c38;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.extra {
+    background-color: #bcfad7;
+    color: black;
+    padding: 10px;
+    border: 0px;
+    text-indent: 1.5em;
+    border-radius: 10px;
+}
+
+
+*{
+    margin: 0px;
+}
+
+body {
+    background-color: #84e1ad;
+    min-width: min-content;
+}
+
+h3 {
+    background: linear-gradient(90deg, #84e1ad, white);
+    padding: 0px 10px;
+}
+
+
+header {
+    text-align: center;
+    color: white;
+    background: linear-gradient(0deg, #1a5c38, #3bd47f);
+}
+
+header > h1 {
+    font-family: 'Bebas Neue', Geneva, Tahoma, sans-serif;
+    padding: 50px 0px 0px 0px;
+    font-weight: 10;
+}
+
+header > p {
+    padding: 20px;
+}
+
+header > nav > a:hover {
+    background-color: #71ce9b;
+    padding: 3px 5px;
+}
+
+nav {
+    text-align: left;
+    padding: 3px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+}
+
+main {
+    background-color: white;
+    margin: 0px 200px;
+    padding: 20px;
+}
+
+article > ul {
+    column-count: 2;
+    padding: 10px;
+}
+
+article > ul > li::before {
+    content: '✔️';
+}
+
+article > h4 {
+    background-color: #268b54;
+    color: white;
+    padding: 10px;
+    border: 10px;
+    border-radius: 10px 10px 0px 0px;
+    margin: -10px -10px 0px -10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1a5c38;
+    color: white;
+    font-family: 'Bebas Neue', Geneva, Tahoma, sans-serif;
+    padding: 3px;
+}
