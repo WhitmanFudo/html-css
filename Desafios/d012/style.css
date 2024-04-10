@@ -18,6 +18,7 @@
 
 body {
     background-color: gray;
+    min-height: 100vh;
 }
 
 header {
@@ -54,6 +55,7 @@ main {
 
 section {
     padding: 80px 30px 80px;
+    line-height: 2em;
 }
 
 .opaco {
@@ -87,7 +89,8 @@ footer {
     background-color: black;
     text-align: center;
     color: white;
-    font-size: 1.3vw;
+    font-size: 1em;
+    
     padding: 10px;
 }
 
