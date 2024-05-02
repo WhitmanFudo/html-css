@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgray;
+}
+
+table {
+    width: 200px;
+}
+
+td {
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+td:nth-child(2n):hover {
+    background-color: black;
+    color: white;
+}
+
+td:nth-child(2n-1):hover {
+    background-color: white;
+    color: black;
+}
