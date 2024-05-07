@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Tabelas</title>
+    <style>
+        table {
+            width: 200px;
+            border-collapse: collapse;
+            
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 3px 20px 3px 20px;
+            text-align: center;
+            text-align: left;
+        }
+
+        .vermelho {
+            background-color: red;
+        }
+
+        .amarelo {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+
+
+    <table>
+        <colgroup>
+            <col class="amarelo">
+            <col class="vermelho">
+            <col class="amarelo">
+            <col class="vermelho">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Bruno Henrique</td>
+            <td>M</td>
+            <td>20</td>
+            <td>Jogador</td>
+        </tr>
+
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>João Ferreira</td>
+            <td>M</td>
+            <td>17</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Fernanda Moreira</td>
+            <td>F</td>
+            <td>29</td>
+            <td>Professora</td>
+        </tr>
+    </table>
+</body>
+</html>
