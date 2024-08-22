@@ -71,16 +71,16 @@ main > section {
     vertical-align: middle;
 }
 
-#campemail, #campsen {
+#iemail, #isen {
     background-color: #94CFCD;
     padding: 6px;
     border: none;
     border-radius: 10px;
     width: 176px;
-    
+    vertical-align: middle;
 }
 
-#campemail:focus, #campsen:focus {
+#imail:focus, #isen:focus {
     background-color: white;
 }
 
@@ -107,7 +107,10 @@ main > section {
     width: 230px;
     height: 45px;
     margin: 2px 10px;
+}
 
+#recsen:hover {
+    background-color: #53AAA7;
 }
 
 #recsen > a {
